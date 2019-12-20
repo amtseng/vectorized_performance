@@ -6,14 +6,14 @@ This repository contains code to compute various performance metrics in a vector
 The focus here is on commonly used metrics for machine learning that _do not_ already have a vectorized implementation in NumPy, SciPy, or Scikit Learn.
 
 ### Dependencies
-Python 3.7
-NumPy 1.17
+- Python 3.7
+- NumPy 1.17
 
 ### Supported functionalities
-Jensen-Shannon divergence
-auPRC (area under precision-recall curve)
-Pearson correlation
-Spearman correlation
+- Jensen-Shannon divergence
+- auPRC (area under precision-recall curve)
+- Pearson correlation
+- Spearman correlation
 
 ### API
 - `jensen_shannon_distance(probs1, probs2)`
